@@ -7,6 +7,7 @@
 - UUKEY: Fiddler 抓包
 - EAISESS: Fiddler 抓包
 ## 使用方法
+1. 先将项目fork到自己的账号下。
 1. 使用Fiddler抓取自己的cookies，记录其中的uukey字段和eai-sess字段。
 1. 进入setting页面，添加2个（或者4个，如果你想要telegram提醒的话）secrets，名称分别为UUKEY和EAISESS，注意变量名需要大写，而内部的数据无需大写。复制过来的字符串可能含有一个换行符要删掉，字符串两端无需双引号，数据填入第一步抓取的cookies中对应的数据。
 1. 进入Action页面，手动开启Action里的workflow，因为默认workflow是关闭的。
